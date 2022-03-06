@@ -1,0 +1,87 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 70.5vh; */
+}
+
+.bg-alice-blue {
+  background-color: #e6eff2ff;
+}
+
+.bg-lavender-gray {
+  background-color: #c3bed2ff;
+}
+
+.text-color-space-cadet {
+  color: #363a58ff;
+}
+
+.btn {
+  border: none;
+  font-family: 'Lato';
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:before {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-sep {
+  padding: 25px 60px 25px 120px;
+}
+
+.btn-sep:before {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.btn-1 {
+  background: #363a58ff;
+  color: #fff;
+}
+
+.btn-1:hover {
+  background: #2980b9;
+}
+
+.btn-1:active {
+  background: #2980b9;
+  top: 2px;
+}
+
+.btn-1:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
